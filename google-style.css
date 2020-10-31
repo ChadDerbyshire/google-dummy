@@ -1,0 +1,62 @@
+#google {
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+
+}
+
+#user-bar {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+
+#google-links {
+
+}
+
+#google-logo {
+
+}
+
+#languages {
+
+}
+
+#links-bar {
+
+}
+
+#search-bar {
+
+}
+
+#google-search {
+
+}
+
+#lucky {
+
+}
+
+#sign-in {
+
+}
+
+.lang-options {
+
+}
+
+.user-links {
+
+}
+
+.left-links {
+
+}
+
+.right-links {
+
+}
