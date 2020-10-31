@@ -1,10 +1,14 @@
 #google {
-    display: flex;
-    flex-direction: column;
+
 }
 
 #header {
-
+    background-color: dimgray;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+    width: 50%;
+    text-align: center;
 }
 
 #user-bar {
@@ -14,15 +18,18 @@
 }
 
 #google-links {
-
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
 }
 
 #google-logo {
-
+    display: block;
+    margin: auto;
 }
 
 #languages {
-
+    text-align: center;
 }
 
 #links-bar {
@@ -30,7 +37,7 @@
 }
 
 #search-bar {
-
+    margin: 50px;
 }
 
 #google-search {
