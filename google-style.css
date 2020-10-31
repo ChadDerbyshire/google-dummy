@@ -3,12 +3,12 @@
 }
 
 #header {
-    background-color: dimgray;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 250px;
+    margin-top: 200px;
     width: 50%;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #user-bar {
@@ -30,6 +30,8 @@
 
 #languages {
     text-align: center;
+    font-size: 13px;
+    margin-top: 20px;
 }
 
 #links-bar {
@@ -37,15 +39,24 @@
 }
 
 #search-bar {
-    margin: 50px;
+    margin: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 525px;
 }
 
 #google-search {
-
+    margin: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 #lucky {
-
+    margin: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 #sign-in {
