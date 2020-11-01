@@ -1,5 +1,6 @@
 #google {
-
+    margin: 0%;
+    padding: 0%;
 }
 
 #header {
@@ -25,11 +26,8 @@
 }
 
 #google-links {
-    position: absolute;
-    width: 100%;
-    bottom: 0%; 
-    left: 0%;
-    background-color: gray;
+    direction: flex;
+    flex-direction: column;
 }
 
 #google-logo {
@@ -73,7 +71,7 @@
     color: rgb(95, 99, 104);
     background-color: rgb(242, 242, 242);
     border-radius: 5px;
-    border-width: 0px;
+    border: 1px solid transparent;
     font-family: arial, sans-serif;
     width: 150px;
 }
@@ -85,7 +83,7 @@
     color: rgb(95, 99, 104);
     background-color: rgb(242, 242, 242);
     border-radius: 5px;
-    border-width: 0px;
+    border: 1px solid transparent;
     font-family: arial, sans-serif;
     width: 150px;
 }
@@ -113,16 +111,45 @@
     font-family: arial, sans-serif;
 }
 
-#right {
+#sa {
+    position: absolute;
+    width: 100%;
+    background-color: rgb(242, 242, 242);
+    color: rgba(0, 0, 0, 0.54);
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    padding: 0px 0px 0px 0px;
+    border-top: solid;
+    border-top-color: rgb(228, 228, 228);
+    border-top-width: 1px;
     right: 0%;
+    left: 0%;
+    bottom: 41px;
 }
 
-#left {
+#bottom-links {
+    position: absolute;
+    width: 100%;
+    background-color: rgb(242, 242, 242);
+    color: rgba(0, 0, 0, 0.54);
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    padding: 13px 0px 13px 0px;
+    border-top: solid;
+    border-top-color: rgb(228, 228, 228);
+    border-top-width: 1px;
+    bottom: 0%;
+    right: 0%;
     left: 0%;
 }
 
-#sa {
+#left {
+    position: absolute;
+}
 
+#right {
+    width: 100%;
+    text-align: end;
 }
 
 .lang-options {
@@ -138,9 +165,13 @@
 }
 
 .left-links {
-
+    margin-left: 30px;
 }
 
 .right-links {
+    margin-right: 30px;
+}
 
+.satext {
+    margin-left: 30px;
 }
