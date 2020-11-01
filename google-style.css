@@ -16,6 +16,7 @@
     text-align: end;
     font-family: arial, sans-serif;
     font-size: 13px;
+    text-decoration: none;
     width: 100%;
     position: fixed;
     top: 15px;
@@ -158,6 +159,8 @@
 
 .user-links {
     margin-right: 10px;
+    text-decoration: none;
+    color: rgb(34, 34, 34);
 }
 
 .user-links:hover {
@@ -166,10 +169,26 @@
 
 .left-links {
     margin-left: 30px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.left-links:hover {
+    margin-left: 30px;
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.54);
 }
 
 .right-links {
     margin-right: 30px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.right-links:hover {
+    margin-right: 30px;
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.54);
 }
 
 .satext {
